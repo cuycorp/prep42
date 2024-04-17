@@ -1,0 +1,16 @@
+#!/bin/sh
+# -t orderna por ultima modificacion
+# -F  classifies the file with different special characters for different kinds of files.
+# () convierte a arreglo
+ay=(`ls -t -F`) 
+len=${#ay[@]}
+c=1
+for i in "${ay[@]}"
+do
+    if [ $c = 5 ] ; then
+        echo  "$i"  
+    else 
+        echo  -n "$i",
+    fi
+    ((c++))
+done

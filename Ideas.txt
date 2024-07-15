@@ -1,0 +1,7 @@
+Entender caso unico
+Generalizar
+podria ir celda por celda e ir colocando las reinas de 
+manera sistematica, pero hay diferentes caminos que se 
+pueden tomar 
+
+Comenzar por una y listar todas las posiciones posibles

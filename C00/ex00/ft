@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+// Function declaration
+void ft_putchar(char c);
+
+int main() {
+    int x = 5;
+    write(x); // Calling the add function
+}
+
+// Function definition
+void write(char c) {
+    write(1, &c, 1);
+}
+
+
